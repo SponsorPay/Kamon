@@ -171,7 +171,6 @@ object Projects extends Build {
     .settings(fork in Test :=  true)
     .settings(
       libraryDependencies ++=
-        compile(sigarLoader) ++
         test(scalatest, akkaTestKit, slf4Api, slf4Jul, slf4Log4j, logback))
 
   lazy val kamonJdbc = Project("kamon-jdbc", file("kamon-jdbc"))
