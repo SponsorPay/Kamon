@@ -27,7 +27,6 @@ object Dependencies {
   val aspectjVersion    = "1.8.5"
   val slf4jVersion      = "1.7.7"
   val playVersion       = "2.3.8"
-  val sigarVersion      = "1.6.5.132"
 
   val sprayJson         = "io.spray"                  %%  "spray-json"            % "1.3.1"
   val sprayJsonLenses   = "net.virtual-void"          %%  "json-lenses"           % "0.6.0"
@@ -53,7 +52,6 @@ object Dependencies {
   val slf4Jul           = "org.slf4j"                 %   "jul-to-slf4j"          % slf4jVersion
   val slf4Log4j         = "org.slf4j"                 %   "log4j-over-slf4j"      % slf4jVersion
   val scalazConcurrent  = "org.scalaz"                %%  "scalaz-concurrent"     % "7.1.0"
-  val sigarLoader       = "io.kamon"                  %   "sigar-loader"          % "1.6.5-rev001"
   val h2                = "com.h2database"            %   "h2"                    % "1.4.182"
   val el                = "org.glassfish"             %   "javax.el"              % "3.0.0"
 
